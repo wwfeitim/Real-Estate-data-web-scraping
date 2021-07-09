@@ -8,6 +8,12 @@ The reasons that I do this is because:
 
 This project would also work as an entry-level tutorial for people who are interested in Rselenium and rvest. 
 
+The following codes are just an example to capture 80 properties for rent. Rselenium and rvest both do the work. However, domain.com is not a website that performs massive dynamic javascript, so that I can mainly rely on rvest rather than Rselenium. 
+
+Rvest can handle the most entry-level tasks and it is faster than Rselenium. However, rvest cannot capture data from dynamic webs, it is where we have to use Rselenium. 
+
+Rselenium mimics human behaviours to capture information like a real person. It builds a remote server and mimics our behaviour by codes which include click button, type text and copy. Rselenium is slower and inefficient comparing to rvest, but it is the best option to scrape the dynamic web for entry-level users. 
+
 ```{r packages}
 library(tidyverse)
 library(RSelenium)
