@@ -14,6 +14,10 @@ Rvest can handle the most entry-level tasks and it is faster than Rselenium. How
 
 Rselenium mimics human behaviours to capture information like a real person. It builds a remote server and mimics our behaviour by codes which include click button, type text and copy. Rselenium is slower and inefficient comparing to rvest, but it is the best option to scrape the dynamic web for entry-level users. 
 
+Some useful tutorials reference: 
+1. https://thatdatatho.com/tutorial-web-scraping-rselenium/
+2. https://github.com/yusuzech/r-web-scraping-cheat-sheet/blob/master/README.md
+
 ```{r packages}
 library(tidyverse)
 library(RSelenium)
